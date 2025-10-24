@@ -1,0 +1,17 @@
+package com.example.bai1;
+
+import android.os.Bundle;
+import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class SecondActivity extends AppCompatActivity {
+    TextView tv;
+
+    protected void onCreate(Bundle savedInstance){
+        super.onCreate(savedInstance);
+        setContentView(R.layout.sec_activity);
+
+        tv=findViewById(R.id.textView);
+    }
+}
